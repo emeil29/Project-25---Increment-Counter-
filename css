@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Fredoka:wght@400;500;600&family=Hurricane&family=Lato:wght@300&family=Palette+Mosaic&family=Quintessential&family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(202, 168, 202);
+    color: rgb(59, 13, 152);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+    justify-content: center;
+    text-align: center;
+}
+.counter{
+    font-size: 50px;
+    margin-top: 10px;
+
+}
+@media(max-width: 580px){
+   body{
+       flex-direction: column;
+   }
+}
